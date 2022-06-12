@@ -1,0 +1,16 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "The typescript-template is a simple template for  your new typescript project.",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "tsc && node dist/index.js"
+  },
+  "author": "salah",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "nodemon": "^2.0.16"
+  }
+}
