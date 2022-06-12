@@ -1,7 +1,7 @@
 # Typescript-template
 General Typescript project starter 🤸‍♀️
 
-*Typescript is beautiful except, when it comes to downloading it and configuring it*
+*Typescript is beautiful, except when it comes to downloading it and configuring it*
 
 *-salah*
 
