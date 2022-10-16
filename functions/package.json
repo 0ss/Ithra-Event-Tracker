@@ -1,0 +1,32 @@
+{
+  "name": "ithra-events",
+  "version": "0.0.1",
+  "description": "Ithra events tracker",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "npm run build && firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "14"
+  },
+  "main": "lib/functions/src/index.js",
+  "dependencies": {
+    "firebase-admin": "^11.0.1",
+    "firebase-functions": "^3.22.0",
+    "axios": "^1.1.2",
+    "dayjs": "^1.11.5",
+    "dotenv": "^16.0.3",
+    "envalid": "^7.3.1",
+    "node-twitter-api": "^1.8.0",
+    "twitter-api-v2": "^1.12.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  },
+  "private": true
+}
