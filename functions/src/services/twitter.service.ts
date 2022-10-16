@@ -99,4 +99,7 @@ export class TwitterService {
     tweet += `🌍 الرابط: ${link}\n\n`
     return tweet
   }
+  public async testTweet(): Promise<void> {
+    await this._twitterClient.v2.tweet(Math.random().toString().substring(2))
+  }
 }
